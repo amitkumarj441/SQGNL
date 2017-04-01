@@ -12,4 +12,4 @@ SQGNL has been written in Perl and in order to run this application we need to h
 - Data::Manip
 - Lingua::En::Inflect
 
-
+## License
