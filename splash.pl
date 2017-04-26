@@ -1,17 +1,13 @@
 use strict;
 
-############################################################################
 # Modular level variables
 use vars qw( $win_splash );      # window handle for this splash screen
 my $PARSER_FILE  = "parser.pl";  # name of the parser file
 my $splash_shown = 0;            # splash screen is already shown or not
 my $splash_info;                 # message to be displayed on the splash screen
 
-
-############################################################################
 # Display the spalsh screen and load parser grammar in the background
 sub show_splash
-############################################################################
 {
     ### do not show the splash screen if already shown ###
     ### we do not want to load the grammar twice       ###
@@ -67,11 +63,8 @@ sub show_splash
     MainLoop;
 }
 
-
-############################################################################
 # Load initial data and the parser at startup
 sub load_data
-############################################################################
 {
     ### connect to the database ###
     $splash_info = 'Connecting to the database...';
