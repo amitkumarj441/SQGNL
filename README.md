@@ -39,4 +39,6 @@ You may not have the necessary permissions to install into /usr/local. In such a
     
 ## [Research Paper](https://github.com/amitkumarj441/SQGNL/commit/a61c7d779ab09d9232751afb81ad149436eb5da8) 
 
+Find **Presentation** [here](https://github.com/amitkumarj441/SQGNL/blob/master/Presentation/SQGNL.pptx).
+
 [MIT LICENSE](https://github.com/amitkumarj441/SQGNL/blob/master/LICENSE)
