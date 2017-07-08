@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/amitkumarj441/SQGNL.png?label=ready&title=Ready)](https://waffle.io/amitkumarj441/SQGNL?utm_source=badge)
 # SQGNL
 
 SQGNL stands for SQL Query generator for Natural Language
