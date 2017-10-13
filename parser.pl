@@ -1,11 +1,9 @@
 use strict;
 
-############################################################################
 # Global variables
 use vars qw( %table_columns );
 use vars qw( %table_relationships );
 
-############################################################################
 # Modular level variables
 
 ### Following variables used to test this parser only ###
@@ -16,10 +14,8 @@ my $trace_on = 0;                  ### Enable tracing the parser output  ###
 my $grammar;                       ### SQGNL parser grammar             ###
 my $parser_file;                   ### name of the file which contains parser object ###
 
-############################################################################
 # combine table names into parser accepted string
 sub load_parser
-############################################################################
 {
     $parser_file = "sq_hal_${db_type}_${db_source}_${user}";
 
@@ -109,11 +105,8 @@ sub load_parser
     }
 }
 
-
-############################################################################
 # save the parser to a file
 sub save_parser()
-############################################################################
 {
     print "Saving the parser to the file '${parser_file}.pm'...";
 
@@ -130,11 +123,8 @@ sub save_parser()
     $save_parser = 0;
 }
 
-
-############################################################################
 # learn new rule by the parser
 sub extend_parser
-############################################################################
 {
     my ($rule, $str) = ($_[0], $_[1]);  ### parser rule and the new learn string ###
 
@@ -148,11 +138,8 @@ sub extend_parser
     print "Learn grammar:\n$grammar\n";
 }
 
-
-############################################################################
 # initialize table relationships and table-column relationships
 sub initialize_vars
-############################################################################
 {
     @table_columns{get_table_names()} = ();
 
@@ -191,11 +178,8 @@ sub initialize_vars
     }
 }
 
-
-############################################################################
 # combine table names into parser accepted string
 sub save_db_info()
-############################################################################
 {
     open(DB, "> ${parser_file}.db");
 
@@ -214,11 +198,8 @@ sub save_db_info()
     close(DB);   ### close the file ###
 }
 
-
-############################################################################
 # combine table names into parser accepted string
 sub table_names_to_parser_str()
-############################################################################
 {
     print "Reading table names...\n";
 
@@ -241,11 +222,8 @@ sub table_names_to_parser_str()
     return $tables_str;
 }
 
-
-############################################################################
 # combine all table columns into parser accepted string
 sub column_names_to_parser_str()
-############################################################################
 {
     use Lingua::EN::Inflect ':ALL';
 
