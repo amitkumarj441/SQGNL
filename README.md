@@ -41,4 +41,4 @@ You may not have the necessary permissions to install into /usr/local. In such a
 
 Find **Presentation** [here](https://github.com/amitkumarj441/SQGNL/blob/master/Presentation/SQGNL.pptx).
 
-[MIT LICENSE](https://github.com/amitkumarj441/SQGNL/blob/master/LICENSE)
+[GPLv3 LICENSE](https://github.com/amitkumarj441/SQGNL/blob/master/LICENSE)
