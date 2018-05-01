@@ -39,6 +39,15 @@ You may not have the necessary permissions to install into /usr/local. In such a
     
 ## [Research Paper](http://www.academia.edu/32188868/SQL_Query_Generator_For_Natural_Language) 
 
+## Cite
+
+```
+@article{jaiswalsql,
+  title={SQL Query Generator For Natural Language},
+  author={Jaiswal, Amit Kumar and Yadav, Vivek and Singh, Vidya Sagar}
+}
+```
+
 Find **Presentation** [here](https://github.com/amitkumarj441/SQGNL/blob/master/Presentation/SQGNL.pptx).
 
 [GPLv3 LICENSE](https://github.com/amitkumarj441/SQGNL/blob/master/LICENSE)
