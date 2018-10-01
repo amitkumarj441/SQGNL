@@ -7,7 +7,7 @@ Should you wish to avoid using the system perl [perlbrew](https://perlbrew.pl)
 makes it easy to install and manage perl.
 
 For more information about perl and installing perl visit
-[https://www.perl.org/get.html].
+https://www.perl.org/get.html.
 
 ## Install Perl Modules
 
